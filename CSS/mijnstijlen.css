@@ -1,0 +1,86 @@
+/*Algemene opmaak: de opmaak die geldig is voor alles op mijn webpagina.*/
+body{
+    /*Baground-image zorgt voor een achtergrondfoto van mijn pagina.
+    Als url geef ik het pad op waar de foto zich bevindt.*/
+    background-image: url(../images/achtergrond.jpg);
+    
+    /*Het standaardlettertype is Calibri (of eventueel Arial)*/
+    font-family: Calibri, Arial, sans-serif;
+    /*De standaard puntgrootte is 16 px*/
+    font-size: 16px;
+    /*De tekst wordt standaard uitgevuld.*/
+    text-align: justify;
+}
+
+#container{
+    background-color:white;
+    margin: 0px auto;
+    width: 100%;
+    /*De container mag maximaal een breedte hebben van 1 200 px.*/
+    max-width: 1200px;
+}
+
+/*De afbeelding in de banner moet gecentreerd staan*/
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+nav{
+    border-bottom: rgb(201, 201, 201) solid 1px;
+    overflow: hidden;
+}
+
+.item{
+    float: left;
+    border: solid 1px rgb(204, 204, 204);
+    border-radius: 5px 5px 0px 0px;
+    font-size: 21px;
+    padding: 2px 5px;
+    margin:0px 3px;
+}
+
+.item a{
+    text-decoration: none;
+    color:black;
+}
+
+main{
+    float:right;
+    width:70%;
+}
+
+aside{
+    width: 25%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+aside h1{
+    font-weight: 900;
+    color: rgb(217, 162, 67);
+}
+
+aside p{
+    text-align: center;
+}
+
+aside table{
+    width:100%;
+}
+
+aside p, aside table{
+    background-color: rgb(217, 162, 67);
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 3px 0px;
+}
+
+footer p{
+    color: white;
+}
